@@ -1,0 +1,24 @@
+* {
+    font-family: "Noto Sans";
+}
+
+.li-1:hover {
+    color: #ff7d1a;
+}
+
+.custom-dropdown .dropdown-toggle::after {
+    display: none;
+}
+
+.navLinks:hover {
+    color: #ff7d1a !important;
+}
+
+.cart {
+    margin: 0;
+}
+
+.cart-num {
+    padding: 5%;
+    background-color: #ff7d1a;
+}
