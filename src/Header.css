@@ -10,10 +10,6 @@
     display: none;
 }
 
-.navLinks:hover {
-    color: #ff7d1a !important;
-}
-
 .cart {
     margin: 0;
 }
@@ -21,4 +17,8 @@
 .cart-num {
     padding: 5%;
     background-color: #ff7d1a;
+}
+
+.shop-cart {
+    cursor: pointer;
 }

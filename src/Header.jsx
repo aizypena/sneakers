@@ -12,7 +12,7 @@ function Header() {
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
-                        className="my-2 my-lg-0 flex ms-auto"
+                        className="my-2 my-lg-0 flex mx-auto"
                         style={{ maxHeight: "100px" }}
                         navbarScroll
                     >
@@ -32,6 +32,11 @@ function Header() {
                             Contact
                         </Nav.Link>
                     </Nav>
+                    <Navbar.Brand className="cursor-pointer">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </Navbar.Brand>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
