@@ -22,3 +22,7 @@
 .shop-cart {
     cursor: pointer;
 }
+
+.cart-num {
+    font-size: small;
+}
