@@ -1,14 +1,102 @@
-@media (max-width: 768px) {
-    .pics-desc {
+@media (width <= 425px) {
+    .section-1 {
         display: flex;
         justify-content: center;
-    }
-    .pics-highlight {
-        display: flex;
-        width: 60%;
-        justify-content: space-between;
+        height: 100%;
+        width: 100%;
     }
     .product-pics {
         display: none;
+    }
+    .pics-highlight {
+        height: 400px;
+        width: 90%;
+        border-radius: 3%;
+    }
+    .arr-btns-cont {
+        width: 90%;
+        height: 100%;
+    }
+
+    .section-2 {
+        padding: 5% 0;
+    }
+    .sneaker-company {
+        font-size: 12.8px;
+        color: #ff7d1a;
+        letter-spacing: 2px;
+    }
+    .limited-ed {
+        font-weight: 600 !important;
+    }
+    .sneakers-cap {
+        color: rgba(0, 0, 0, 0.75);
+    }
+
+    /* section 3 */
+    .discount-container,
+    .price-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+    .discount-container {
+        width: 55%;
+    }
+    .off-container {
+        background-color: #ffddc3;
+        height: 100%;
+        width: 25%;
+        border-radius: 5px;
+    }
+    .off {
+        color: #ff7d1a;
+        font-weight: bold;
+    }
+    .discount-price {
+        font-weight: 500 !important;
+    }
+    .orig-price {
+        color: #0000008c;
+        text-decoration: line-through;
+    }
+
+    /* section 4 */
+    .section-4 {
+        padding: 5% 0;
+    }
+    .btn1-container {
+        background-color: #f7f8fd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 10px;
+        margin-bottom: 4%;
+    }
+    .add-minus {
+        padding: 3% 5%;
+        color: #ff7d1a;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .counter {
+        font-weight: bold;
+    }
+    .btn-txt {
+        font-weight: bold;
+    }
+    .add2cart-btn {
+        background-color: #ff7d1a;
+        width: 100%;
+        padding: 5% 0;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    .cart-btn-txt {
+        color: #fff;
+    }
+    .cart-icon {
+        padding: 0 4% 0 0;
     }
 }
